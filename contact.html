@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Home | PUP Programming Guild</title>
+<title>Members | PUP Programming Guild</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Abel|Lato:400,700" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="components/navbar/navbar.css">
 <link rel="stylesheet" type="text/css" href="components/section/section.css">
 <link rel="stylesheet" type="text/css" href="components/footer/footer.css">
+<link rel="stylesheet" type="text/css" href="components/events-list/events-list.css">
 
 <style>
 body {
@@ -24,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 </head>
 <body>
-<h1 class="sr-only">PUP Programming Guild</h1>
 <nav class="page-navbar navbar navbar-default navbar-static-top">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
       <ul class="nav navbar-nav navbar-right">
         <li><a href="events.html">Events</a></li>
         <li><a href="members.html">Members</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
         <li><a href="faq.html">FAQ</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -51,46 +51,9 @@ h1, h2, h3, h4, h5, h6 {
 <section class="page-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-8">
-				<figure>
-					<img src="http://placehold.it/400x300" class="img-responsive">
-					<figcaption>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod aliquam
-					</figcaption>
-				</figure>
-			</div>
-			<div class="col-xs-12 col-sm-4">
-				<div class="page-calendar -home"></div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<footer class="page-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-md-6">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-12">
-						<h2>About</h2>
-						<ul class="list-unstyled">
-							<li><a href="aboutus.html">What We Are</a></li> 
-							<li><a href="#">What We Do</a></li>
-							<li><a href="#">What We Plan To Do</a></li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-12">
-						<h2>Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="https://www.pup.edu.ph">PUP Official Web Site</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
 				<form class="page-form" method="post">
-					<h2>Contact</h2>
+					<h1>Contact</h1>
 					<div class="form-group">
 						<label for="footer/contact/email">Your email address</label>
 						<input type="email" id="footer/contact/email" required
@@ -112,6 +75,27 @@ h1, h2, h3, h4, h5, h6 {
 						<button class="btn btn-primary" type="submit">Send</button>
 					</div>
 				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<h2>About</h2>
+				<ul class="list-unstyled">
+					<li><a href="#">What We Are</a></li>
+					<li><a href="#">What We Do</a></li>
+					<li><a href="#">What We Plan To Do</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<h2>Links</h2>
+				<ul class="list-unstyled">
+					<li><a href="https://pup.edu.ph">PUP Official Web Site</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="text-muted">

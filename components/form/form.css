@@ -1,0 +1,8 @@
+.page-form  > .actions {
+	text-align: right;
+}
+
+.page-form .textarea {
+	max-width: 100%;
+	min-width: 100%;
+}

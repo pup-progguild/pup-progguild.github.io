@@ -1,0 +1,13 @@
+.page-calendar > .ui-datepicker {
+	width: 100%;
+	max-width: 100%;
+}
+
+.page-calendar > .ui-datepicker .ui-datepicker-title {
+	font-family: Abel, sans-serif;
+	font-size: 30px;
+}
+
+.page-calendar > .ui-datepicker > .ui-datepicker-calendar {
+	table-layout: fixed;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pup-progguild",
+  "version": "0.0.0",
+  "description": "Web site of the PUP Programming Guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.0"
+  }
+}

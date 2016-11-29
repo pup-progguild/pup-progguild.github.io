@@ -1,0 +1,11 @@
+.events-list > .days {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.day-events > .events {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
